@@ -8,7 +8,7 @@ html {
 }
 
 div {
-  padding: .5em;
+  padding: 0;
   text-align: center;
   margin: 1em;
 }
@@ -20,10 +20,11 @@ div {
   font-size: 1.125rem;
   border-radius: 8px;
   border-width: 3px;
-  padding: .6em;
+  padding: .5em .75em;
+  display: inline-block;
 }
 
-a:hover {
+.btn:hover {
   background-color: #000;
 }
 
@@ -57,10 +58,10 @@ a:hover {
 
 .btn-small {
   font-size: .875rem;
-  padding: .75em;
+  padding: .5em .9em;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  padding: .4em;
+  padding: .4em .75em;
 }
